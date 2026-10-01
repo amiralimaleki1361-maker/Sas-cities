@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(2, 2, 2);
+  text-align: center;
+  color: rgb(153, 153, 153);
+  width: 100px;
+}
+
+main {
+  background-color: rgba(170, 170, 170, 0.6352941176);
+  color: white;
+}/*# sourceMappingURL=style.css.map */

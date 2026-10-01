@@ -1,0 +1,15 @@
+@import "vars";
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: $background-color;
+    text-align: center;
+    color: $background-gray;
+    width: $header-width;
+}
+main{
+    background-color: $background-main-color;
+    color: $color-main;
+}
