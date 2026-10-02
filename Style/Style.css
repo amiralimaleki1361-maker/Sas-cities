@@ -1,16 +1,84 @@
 * {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: rgb(2, 2, 2);
   text-align: center;
-  color: rgb(153, 153, 153);
-  width: 100px;
+  background-color: #020202;
+  color: #aaaaaaa2;
+  padding: 50px;
+  font-size: 25px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+section#links a {
+  padding: 5px;
+  display: block;
+  background-color: rgb(97, 97, 97, );
+}
+
+section#links {
+  padding: 30px;
+  padding-right: 250px;
+  background-color: rgb(97, 97, 97, );
+}
+
+section#description p {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+section#description h2 {
+  padding-top: 30px;
+}
+
+section#description {
+  padding-left: 20px;
+  padding-bottom: 100px;
 }
 
 main {
-  background-color: rgba(170, 170, 170, 0.6352941176);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  section#description {
+    padding-bottom: 20px;
+  }
+
+  section#links a {
+    text-align: center;
+  }
+
+  section#links {
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: rgb(124, 76, 56);
   color: white;
-}/*# sourceMappingURL=style.css.map */
+  text-align: center;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=Style.css.map */
